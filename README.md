@@ -12,9 +12,11 @@ Here is a graphical example of the Ridge and Lasso penalties (Jones):
 
 ![image](https://user-images.githubusercontent.com/76021844/161326208-8efa2ec3-04d9-4a25-b98a-c15f8aa09729.png)
 
-SCAD stands for the smoothly clipped absolute deviations penalty and it is a type of penalized least squares penalty. SCAD is useful for encouraging sparse solutions in variable selection. Furthermore, SCAD allows for beta coefficients to be high even while encouraging a sparse solution. SCAD differs from Lasso in that Lasso has a monotonically increasing penalty whereas higher values of beta beyond a threshold are not penalized more under SCAD. Local quadratic approximations can be used to fit a model using SCAD. Below, a graphical representation of the SCAD penalty is shown (Jones):
+Below is a graphical representation of the SCAD penalty (Jones):
 
 ![image](https://user-images.githubusercontent.com/76021844/161326849-8081d2f5-8b1d-4bf5-a7af-eae74b74069a.png)
+
+SCAD stands for the smoothly clipped absolute deviations penalty, and it is a type of penalized least squares penalty. SCAD is useful for encouraging sparse solutions in variable selection. Furthermore, SCAD allows for beta coefficients to be high even while encouraging a sparse solution. SCAD differs from Lasso in that Lasso has a monotonically increasing penalty whereas higher values of beta beyond a threshold are not penalized more under SCAD. Local quadratic approximations can be used to fit a model using SCAD. 
 
 Square Root Lasso is a modification of the original LASSO algorithm with the aim of encouraging sparse solutions. SQRTLasso is hypothesized to be particularly useful when the number of features, p, exceeds the number of observations, n. SQRTLasso was developed as a solution to convex conic programming problems and research has demonstrated that it has reached effectiveness levels of Lasso when sigma is known. 
 
