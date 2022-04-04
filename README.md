@@ -1,4 +1,7 @@
-# DATA-410-Project5
+# DATA 410
+# Project 5
+# Kimya Shirazi
+
 # Variable Selection and Sparsity Patterns Using SCAD, SQRTLasso, Lasso, Ridge, and ElasticNet Penalties 
 
 ## Variable Selection Theoretical Background
